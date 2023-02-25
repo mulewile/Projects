@@ -1,4 +1,30 @@
-h1{
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(47, 158, 255);
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(11, 20, 27);
+  position: relative;
+  left: 250px;
+}
+.top {
+  background-color: rgba(20, 147, 164, 0.455);
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  left: 20rem;
+  padding: 6rem;
+}
+nav{
+    font-size: x-large;
+    display: flex;
+    justify-content: space-around;
+}
+#aboutme{
+    background-color: aquamarine;
+}
+main{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 200px;
 }
