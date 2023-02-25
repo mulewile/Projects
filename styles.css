@@ -1,7 +1,7 @@
 
+
 h1 {
-  font-family: "Courier New", Courier, monospace;
-  color: rgb(11, 20, 27);
+  color: rgb(1, 8, 14);
   position: relative;
   left: 250px;
 }
@@ -18,13 +18,4 @@ nav{
     font-size: x-large;
     display: flex;
     justify-content: space-around;
-}
-#aboutme{
-    background-color: aquamarine;
-}
-main{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    top: 200px;
 }
