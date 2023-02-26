@@ -1,21 +1,38 @@
-
-
+body{
+  background-color: burlywood;
+}
 h1 {
+  font-family: Tahoma;
   color: rgb(1, 8, 14);
   position: relative;
-  left: 250px;
+  left: 400px;
+  top: 50px;
 }
-.top {
-  background-color: rgba(20, 147, 164, 0.455);
-  position: absolute;
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
+img {
+ position: relative;
+  height: 300px;
+  width: auto;
   left: 20rem;
   padding: 6rem;
 }
 nav{
-    font-size: x-large;
+  text-transform: uppercase;
     display: flex;
     justify-content: space-around;
+  position: relative;
+  bottom: 450px;
+}
+nav>a{
+background-color: black;
+font-style: normal;
+color: aliceblue;
+padding: 10px;
+}
+
+main{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: absolute;
 }
