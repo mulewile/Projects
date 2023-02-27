@@ -1,4 +1,4 @@
-body{
+body {
   background-color: burlywood;
 }
 h1 {
@@ -10,34 +10,36 @@ h1 {
   top: 50px;
 }
 img {
- position: relative;
+  position: relative;
   height: 300px;
   width: auto;
   left: 20rem;
   top: 80px;
   padding: 6rem;
 }
-nav{
+nav {
   text-transform: uppercase;
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
   position: relative;
   bottom: 425px;
 }
-nav > a{
-border-radius: 8px;
-background-color: black;
-font-style: normal;
-font-size: 15px;
-color: aliceblue;
-padding: 15px;
+nav > a {
+  border-radius: 8px;
+  background-color: black;
+  font-style: normal;
+  font-size: 15px;
+  color: aliceblue;
+  padding: 15px;
 }
-
-main{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+main {
+  font-family: optima;
+  background-color: ;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   position: absolute;
 }
-a:link { text-decoration: none; }
+a:link {
+  text-decoration: none;
+}
