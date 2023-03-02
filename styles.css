@@ -10,7 +10,9 @@ h1 {
   top: 50px;
 }
 img {
+  display: flex;
   position: relative;
+  flex-wrap: wrap;
   height: 300px;
   width: auto;
   left: 20rem;
@@ -21,6 +23,7 @@ nav {
   text-transform: uppercase;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   position: relative;
   bottom: 425px;
 }
@@ -34,7 +37,6 @@ nav > a {
 }
 main {
   font-family: optima;
-  background-color: ;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
