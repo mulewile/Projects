@@ -10,14 +10,16 @@ h1 {
   top: 50px;
 }
 img {
+  /* border-style: solid; */
+  /* border-color: lightslategray; */
   display: flex;
   position: relative;
   flex-wrap: wrap;
-  height: 300px;
+  height: 350px;
   width: auto;
   left: 20rem;
   top: 80px;
-  padding: 6rem;
+  padding: 5rem;
 }
 nav {
   text-transform: uppercase;
@@ -29,7 +31,7 @@ nav {
 }
 nav > a {
   border-radius: 8px;
-  background-color: black;
+  background-color: #2366b3;
   font-style: normal;
   font-size: 15px;
   color: aliceblue;
@@ -40,8 +42,33 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  gap: 20px;
   position: absolute;
+}
+section {
+  background-color: grey;
+  padding: 5px;
 }
 a:link {
   text-decoration: none;
+}
+h2 {
+  color: #ffffff;
+}
+.light--theme {
+  font-size: larger;
+  background-color: #ffffff;
+}
+.theme--change {
+  background-color: #cf7c1d;
+  font-size: large;
+}
+@media screen and (min-width: 600px) {
+  img {
+    width: auto;
+  }
+  /* {
+    width: calc(50% - (var(--gap) / 2));
+    height: 400px;
+  } */
 }

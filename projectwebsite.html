@@ -5,16 +5,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Personal Profile</title>
   </head>
-  <body>
+  <body data-js="body">
     <header>
       <h1>William Mulenga Chanda</h1>
+      <button type="button" class="theme--change" data-js="theme-button">
+        Change Theme
+      </button>
       <div>
         <img src="Portrait.JPEG" alt="Profile Picture" />
       </div>
       <nav>
-        <a href="#aboutme">About Me</a>
+        <a href="#aboutme" data-js="about-me">About Me</a>
         <a href="#contact">Contact</a>
         <a href="#skills">Skills</a>
         <a href="#education">Education</a>
@@ -22,9 +26,9 @@
         <a href="#interests">Interests</a>
       </nav>
     </header>
-    <main>
+    <main data-js="main">
       <section id="aboutme">
-        <h2>About Me</h2>
+        <h2>ABOUT ME</h2>
       </section>
       <section id="contact">
         <h2>Contact</h2>
@@ -35,7 +39,7 @@
         <h2>SKILLS</h2>
         <h3>Technical</h3>
         <ul>
-          <li>Articad</li>
+          <li>ARTICAD</li>
           <li>HTML</li>
           <li>CSS</li>
           <li>Java Script</li>
@@ -54,7 +58,7 @@
         </ul>
       </section>
       <section id="education">
-        <h2>Education</h2>
+        <h2>EDUCATION</h2>
         <p>
           LICENTIATE IN SACRED SCRIPTURE: Pontifical Bible Institute, Rome,
           Italy 2020
@@ -78,10 +82,10 @@
         </ul>
       </section>
       <section id="work">
-        <h2>Work</h2>
+        <h2>WORK</h2>
       </section>
       <section id="interests">
-        <h2>Interests</h2>
+        <h2>INTERESTS</h2>
         <ul>
           <li>Jogging</li>
           <li>Guitar</li>
@@ -94,4 +98,5 @@
     </main>
     <footer></footer>
   </body>
+  <script src="index.js"></script>
 </html>
